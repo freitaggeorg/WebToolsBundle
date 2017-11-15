@@ -1,0 +1,32 @@
+{
+  "name": "web_tools_bundle",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000W\u0000e\u0000b\u0000T\u0000o\u0000o\u0000l\u0000s\u0000B\u0000u\u0000n\u0000d\u0000l\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress -p",
+    "watch": "webpack --progress --watch",
+    "server": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freitaggeorg/WebToolsBundle.git"
+  },
+  "author": "Georg Freitag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freitaggeorg/WebToolsBundle/issues"
+  },
+  "homepage": "https://github.com/freitaggeorg/WebToolsBundle#readme",
+  "dependencies": {
+    "moment": "^2.19.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
