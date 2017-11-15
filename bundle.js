@@ -16009,7 +16009,7 @@ var _moment2 = _interopRequireDefault(_moment);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-console.log("Hello from JavaScript 2000!");
+console.log("Hello from JavaScript!");
 console.log((0, _moment2.default)().startOf('day').fromNow());
 var name = "Bob",
     time = "today";
